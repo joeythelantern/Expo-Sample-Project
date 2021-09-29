@@ -21,11 +21,8 @@ export default function App() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'red',
+        backgroundColor: 'cyan',
         alignItems: 'center',
         justifyContent: 'center',
-        border: '1',
-        borderStyle: 'dotted',
-        borderColor: 'red'
     },
 });
