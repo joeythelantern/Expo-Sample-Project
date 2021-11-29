@@ -1,18 +1,8 @@
 {
-    "editor.defaultFormatter": "remimarsal.prettier-now",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.bracketPairColorization.enabled": true,
-    "[javascript]": {
-      "editor.defaultFormatter": "remimarsal.prettier-now"
-    },
-    "[typescript]": {
-      "editor.formatOnSave": true,
-      "editor.formatOnPaste": true
-    },
-    "[markdown]": {
-      "editor.formatOnSave": true,
-      "editor.wordWrap": "off",
-      "editor.renderWhitespace": "all",
-      "editor.acceptSuggestionOnEnter": "off"
-    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.wordWrap": "on",
     "git.ignoreLimitWarning": true
 }

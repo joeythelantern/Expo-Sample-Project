@@ -8,10 +8,11 @@ export default function App() {
 
     useEffect(() => {
         logging.info('Loading application.');
-    }, [logging])
+    }, [logging]);
 
     return (
         <View style={styles.container}>
+            {/* This is a test for the recording settings. */}
             <Text>Open up App.tsx to start working on your app!</Text>
             <StatusBar style="auto" />
         </View>
@@ -23,6 +24,6 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: 'cyan',
         alignItems: 'center',
-        justifyContent: 'center',
-    },
+        justifyContent: 'center'
+    }
 });
