@@ -12,7 +12,6 @@ export default function App() {
 
     return (
         <View style={styles.container}>
-            {/* This is a test for the recording settings. */}
             <Text>Open up App.tsx to start working on your app!</Text>
             <StatusBar style="auto" />
         </View>
